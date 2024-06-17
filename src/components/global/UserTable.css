@@ -1,0 +1,87 @@
+.user-table-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .filters input[type="date"],
+  .filters input[type="text"] {
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 30%;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  table th {
+    /* background-color: #f9f9f9; */
+    color: #333;
+  }
+  
+  table tbody tr:nth-child(even) {
+    /* background-color: #f9f9f9; */
+  }
+  
+  table .status {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  
+  .pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .pagination li {
+    margin: 0 5px;
+  }
+  
+  .pagination .active {
+    font-weight: bold;
+  }
+  
+  .pagination a {
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .pagination a:hover {
+    background-color: #f9f9f9;
+  }
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+
+  @media only screen and (max-width: 768px) {
+    .pagination a {
+      padding: 10px 12px;
+    }
+  }
+  
